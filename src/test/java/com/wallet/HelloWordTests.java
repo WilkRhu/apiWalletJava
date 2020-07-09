@@ -8,11 +8,9 @@ import org.springframework.test.context.ActiveProfiles;
 
 @SpringBootTest
 @ActiveProfiles("test")
-class WalletApplicationTests {
-
+public class HelloWordTests {
 	@Test
-	void contextLoads() {
+	public void testHelloWorld() {
 		assertEquals(1, 1);
 	}
-
 }
