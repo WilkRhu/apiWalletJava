@@ -1,4 +1,4 @@
-package com.wellet.services;
+package com.wallet.services;
 
 import java.util.Optional;
 

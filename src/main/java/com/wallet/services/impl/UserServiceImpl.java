@@ -1,4 +1,4 @@
-package com.wellet.services.impl;
+package com.wallet.services.impl;
 
 import java.util.Optional;
 
@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.wallet.entity.User;
 import com.wallet.repository.UserRepository;
-import com.wellet.services.UserService;
+import com.wallet.services.UserService;
 
 @Service
 public class UserServiceImpl implements UserService{

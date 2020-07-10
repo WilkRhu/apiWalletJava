@@ -25,10 +25,11 @@ public class User implements Serializable {
 	private String password;
 	
 	@Column(nullable = false)
-	private String name;
+	private String nome;
 	
 	@Column(nullable = false)
 	private String email;
+
 	
 	
 	

@@ -25,7 +25,7 @@ public class UserRepositoryTest {
 	@Before
 	public void setUp() {
 		User u = new User();
-		u.setName("Set up user");
+		u.setNome("Set up user");
 		u.setPassword("Senha123");
 		u.setEmail(Email);
 		
@@ -41,7 +41,7 @@ public class UserRepositoryTest {
 	@Test
 	public void testSave() {
 		User u = new User();
-		u.setName("Teste");
+		u.setNome("Teste");
 		u.setPassword("123456");
 		u.setEmail("teste@test.com");
 
